@@ -11,7 +11,7 @@ const OurSupporters = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center gap-5 bg-slate-100 py-16 px-4">
       <h1 className="text-center text-2xl font-bold">Some Of Our Supporters</h1>
-      <div className="flex flex-wrap items-center justify-center space-x-10">
+      <div className="flex flex-wrap items-center justify-center gap-6 px-6">
         {supporters.map((logo, id) => (
           <img
             key={id}

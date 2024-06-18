@@ -7,7 +7,7 @@ const AvailablePets = () => {
   const [isActive, setIsActive] = useState(0);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-6 lg:gap-10">
+    <div className="flex flex-col items-center justify-center gap-6 px-10 md:px-16 lg:gap-10 lg:px-20">
       <p className="text-center text-2xl font-bold">
         Pets Available for Adoption Nearby
       </p>

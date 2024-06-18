@@ -1,6 +1,6 @@
-import reviewPic1 from "../../assets/review-pic1.jpg";
-import reviewPic2 from "../../assets/review-pic2.jpg";
-import reviewPic3 from "../../assets/review-pic3.jpg";
+import reviewPic1 from "../assets/review-pic1.jpg";
+import reviewPic2 from "../assets/review-pic2.jpg";
+import reviewPic3 from "../assets/review-pic3.jpg";
 
 export function useReviews() {
   const reviews = [

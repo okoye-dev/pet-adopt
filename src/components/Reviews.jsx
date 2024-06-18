@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useReviews } from "./hooks/useReviews";
+import { useReviews } from "../hooks/useReviews";
 import CarouselItem from "./reviews/CarouselItem";
 import Carousel from "./reviews/Carousel";
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "./ui/Button";
-import PetsDisplay from "./adoption journey/PetsDisplay";
+import PetsDisplay from "./adoption-journey/PetsDisplay";
 
 const AvailablePets = () => {
   const pets = ["Dogs", "Cats", "Rabbits", "Birds"];

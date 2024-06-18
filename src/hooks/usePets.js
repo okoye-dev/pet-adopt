@@ -1,9 +1,9 @@
-import dog1 from "../../assets/dog1.jpg";
-import dog2 from "../../assets/dog2.jpg";
-import dog3 from "../../assets/dog3.jpg";
-import dog4 from "../../assets/dog4.jpg";
-import dog5 from "../../assets/dog5.jpg";
-import dog6 from "../../assets/dog6.jpg";
+import dog1 from "../assets/dog1.jpg";
+import dog2 from "../assets/dog2.jpg";
+import dog3 from "../assets/dog3.jpg";
+import dog4 from "../assets/dog4.jpg";
+import dog5 from "../assets/dog5.jpg";
+import dog6 from "../assets/dog6.jpg";
 
 export function usePets() {
   // Replace with fetching of real data from API

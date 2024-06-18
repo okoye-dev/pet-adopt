@@ -43,7 +43,7 @@ const HowItWorks = () => {
               />
             </span>
             <h1 className="pt-3 text-base font-bold">{instance.title}</h1>
-            <p className="text-center">{instance.description}</p>
+            <p className="text-center text-black/80">{instance.description}</p>
           </div>
         ))}
       </section>

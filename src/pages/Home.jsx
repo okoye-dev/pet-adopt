@@ -8,7 +8,7 @@ import Reviews from "../components/Reviews";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center gap-16">
+    <div className="flex flex-col items-center justify-center gap-16 overflow-hidden">
       <Hero />
       <AvailablePets />
       <OurSupporters />

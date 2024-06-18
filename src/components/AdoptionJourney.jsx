@@ -35,7 +35,7 @@ const AdoptionJourney = () => {
           </div>
         </section>
 
-        <div class="absolute flex w-full items-center justify-center py-3">
+        <div className="absolute flex w-full items-center justify-center py-3">
           <div className="overflow-hidden rounded-full">
             <img src={dog} alt="dog" className="w-60 object-cover" />
           </div>

@@ -15,7 +15,7 @@ const CarouselItem = ({ review, id, isVisible }) => {
           />
         </span>
 
-        <section className="flex w-4/5 flex-col justify-end gap-2 rounded-b-2xl bg-white px-6 py-4 shadow-lg">
+        <section className="flex w-4/5 flex-col justify-end gap-1 rounded-b-2xl bg-white p-6 shadow-lg">
           <h1 className="text-2xl font-bold md:text-3xl">{review.title}</h1>
           <p className="w-full leading-5 md:w-1/2">{review.description}</p>
         </section>

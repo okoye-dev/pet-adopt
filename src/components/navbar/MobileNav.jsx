@@ -7,11 +7,8 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
     <div
       className={`fixed right-0 top-0 z-[100] flex h-screen w-screen duration-300 sm:hidden ${isOpen ? "translate-x-0" : "-translate-x-[-100%]"}`}
     >
-      <div
-        className="h-screen w-[30%]"
-        onClick={() => setIsOpen(false)}
-      />
-      <nav className="h-screen w-[70%] bg-pink-50">
+      <div className="h-screen w-[30%]" onClick={() => setIsOpen(false)} />
+      <nav className="h-screen w-[70%] bg-[#fff7f7]">
         <img
           src={close}
           alt="close"
@@ -20,16 +17,14 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
         />
 
         <ul className="flex h-full w-full flex-col items-center justify-center gap-10">
-          <li className="cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80 text-xl font-bold">
+          <li className="cursor-pointer text-xl font-bold duration-300 hover:text-pink-700 hover:opacity-80">
             Adoption
           </li>
-          <li className="cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80 text-xl font-bold">
+          <li className="cursor-pointer text-xl font-bold duration-300 hover:text-pink-700 hover:opacity-80">
             Pets
           </li>
           <li>
-            <Button className={"text-nowrap text-lg"}>
-              Add Pet
-            </Button>
+            <Button className={"text-nowrap text-lg"}>Add Pet</Button>
           </li>
         </ul>
       </nav>

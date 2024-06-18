@@ -1,13 +1,14 @@
 import React from "react";
 import EmailForm from "./footer/EmailForm";
 import Logo from "../components/navbar/Logo";
-import Button from "./ui/Button";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-2 bg-slate-100 py-10 text-start text-sm">
-      <h1 className="text-center text-2xl font-bold">Get Our Newsletter</h1>
+    <div className="flex w-full flex-col items-center justify-center gap-2 bg-slate-100/50 pt-16 text-start text-sm sm:gap-4 sm:text-base">
+      <h1 className="text-center text-2xl font-bold sm:text-3xl">
+        Get Our Newsletter
+      </h1>
       <p className="text-center font-bold">To join the worldwide community</p>
       <EmailForm />
 

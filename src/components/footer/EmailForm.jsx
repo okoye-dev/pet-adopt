@@ -27,7 +27,7 @@ const EmailForm = () => {
       onSubmit={handleSubmit}
       className="flex w-4/5 items-center justify-between bg-white p-4 shadow-xl"
     >
-      <div className="flex w-3/5 flex-col items-start justify-center text-xs font-bold sm:text-sm sm:pl-3">
+      <div className="flex w-3/5 flex-col items-start justify-center text-xs font-bold sm:text-sm lg:text-base sm:pl-3">
         <input
           type="email"
           placeholder="Type your Email Address"

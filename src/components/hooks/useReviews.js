@@ -7,7 +7,7 @@ export function useReviews() {
     {
       name: "Jack Nitzsche",
       img: reviewPic1,
-      title: "Absolutely wonderful",
+      title: "Absolutely wonderful!",
       description:
         "I am very happy to adopt Olivia. I was fortunate enough to find her on the Pet Adoptions website.",
     },

@@ -22,7 +22,7 @@ const Reviews = () => {
         ))}
       </Carousel>
 
-      <div className="absolute bottom-4 left-[55%] z-20 flex items-center justify-center text-lg font-bold">
+      <div className="absolute bottom-4 lg:bottom-8 left-[55%] z-20 flex items-center justify-center text-lg lg:text-2xl lg:left-[75%] font-bold">
         <button onClick={() => setIsVisible(0)}>01</button>
         <span
           className={`mx-2 flex h-[2px] bg-black transition-all duration-300 ease-in-out ${isVisible === 0 ? "w-10" : "w-0"}`}

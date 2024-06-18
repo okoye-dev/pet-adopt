@@ -50,15 +50,15 @@ const Navbar = () => {
         <Logo />
 
         <nav>
-          <ul className="flex items-center gap-4">
-            <li className="hidden cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80 sm:flex">
+          <ul className="flex items-center gap-4 lg:gap-12">
+            <li className="hidden cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80 sm:flex lg:text-lg">
               Adoption
             </li>
-            <li className="hidden cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80 sm:flex">
+            <li className="hidden cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80 sm:flex lg:text-lg">
               Pets
             </li>
             <li>
-              <Button className={"hidden text-nowrap text-xs sm:flex"}>
+              <Button className={"hidden text-nowrap text-xs sm:flex lg:text-lg"}>
                 Add Pet
               </Button>
             </li>

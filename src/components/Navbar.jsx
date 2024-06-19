@@ -3,6 +3,7 @@ import Logo from "./navbar/Logo";
 import Button from "./ui/Button";
 import { IoIosMenu } from "react-icons/io";
 import MobileNav from "./navbar/MobileNav";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   useEffect(() => {
@@ -44,6 +45,12 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const navigate = useNavigate();
+
+  const goToAddPet = () => {
+    navigate("/add-or-adopt-pet");
+  };
+
   return (
     <>
       <div className="nav sticky top-0 z-[100] flex w-full items-center justify-between bg-white px-6 py-3 transition-all duration-300 md:px-16 lg:px-20">
@@ -58,7 +65,10 @@ const Navbar = () => {
               Pets
             </li>
             <li>
-              <Button className={"hidden text-nowrap text-xs sm:flex lg:text-lg"}>
+              <Button
+                onClick={goToAddPet}
+                className={"hidden text-nowrap text-xs sm:flex lg:text-lg"}
+              >
                 Add Pet
               </Button>
             </li>

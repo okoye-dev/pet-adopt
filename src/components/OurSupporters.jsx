@@ -16,6 +16,7 @@ const OurSupporters = () => {
       <div className="flex flex-wrap items-center justify-center gap-6 px-6 sm:gap-14 lg:gap-24">
         {supporters.map((logo, id) => (
           <img
+            loading="lazy"
             key={id}
             src={logo}
             alt="logo"

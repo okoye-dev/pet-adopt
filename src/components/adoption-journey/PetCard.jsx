@@ -6,6 +6,7 @@ const PetCard = ({ type, img, name, age }) => {
     <div className="flex flex-col items-start justify-center gap-3">
       <div className="h-60 w-80 overflow-hidden rounded-2xl">
         <img
+          loading="lazy"
           src={img}
           alt={name}
           width={"100%"}
@@ -20,7 +21,7 @@ const PetCard = ({ type, img, name, age }) => {
           <p className="text-sm opacity-70">Age- {age} years old</p>
         </section>
         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-300 opacity-50 duration-300 hover:opacity-100">
-          <GoArrowRight className="text-3xl text-slate-900 p-[2px]" />
+          <GoArrowRight className="p-[2px] text-3xl text-slate-900" />
         </div>
       </div>
     </div>

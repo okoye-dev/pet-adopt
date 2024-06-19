@@ -9,6 +9,7 @@ const CarouselItem = ({ review, id, isVisible }) => {
       <div className="flex flex-col items-center rounded-lg sm:flex-row">
         <span className="h-80 w-4/5 overflow-hidden rounded-t-2xl sm:rounded-none sm:pl-16 md:h-[28rem]">
           <img
+            loading="lazy"
             src={review.img}
             alt={"review"}
             className="h-full w-full object-cover lg:max-w-[80%]"

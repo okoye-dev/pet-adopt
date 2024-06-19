@@ -2,8 +2,14 @@ import React from "react";
 import EmailForm from "./footer/EmailForm";
 import Logo from "../components/navbar/Logo";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const goToAddPet = () => {
+    navigate("/add-or-adopt-pet");
+  };
   return (
     <div className="flex w-full flex-col items-center justify-center gap-2 bg-slate-100/50 pt-16 text-start text-sm sm:gap-4 sm:text-base">
       <h1 className="text-center text-2xl font-bold sm:text-3xl">
@@ -32,7 +38,10 @@ const Footer = () => {
             <li className="cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80">
               Pets
             </li>
-            <li className="cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80">
+            <li
+              onClick={goToAddPet}
+              className="cursor-pointer duration-300 hover:text-pink-700 hover:opacity-80"
+            >
               Add Pet
             </li>
           </ul>
